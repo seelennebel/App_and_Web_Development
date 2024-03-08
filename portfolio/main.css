@@ -1,0 +1,66 @@
+body
+{
+    font-family: "Playfair Display", sefir;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.header-text
+{
+    font-size: 1em;
+    margin: 5%;
+}
+
+#name
+{
+    text-align: center;
+    font-size: 5em;
+    display: block;
+}
+
+#navigation-container
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+img
+{
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+@media (max-width: 600px)
+{
+    body
+    {
+        font-size: 15px;
+    }
+
+    #name
+    {
+        font-size: 2em;
+    }
+
+    #header-text
+    {
+        font-size: 1em;
+    }
+}
